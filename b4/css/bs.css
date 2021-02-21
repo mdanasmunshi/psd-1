@@ -1,0 +1,763 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+a 
+{
+	text-decoration:none;
+}
+ul,li 
+{
+	list-style-type:none;
+}
+
+
+
+/*-------start font
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+
+font and----------*/
+/*-------start----------*/
+.navbar-light
+{
+	margin-left:130px;
+	
+}
+.navbar-brand 
+{
+	margin-right:300px;
+}
+.navbar-light .navbar-nav .nav-link
+{
+	color:white;
+	font-size:14px;
+	font-weight:500;
+}
+.navbar-light .navbar-nav .nav-link:hover 
+{
+	color:#c69c6a;
+	
+}
+.navbar 
+{
+	position:fixed;
+}
+/*-------and----------*/
+/*-------baner start----------*/
+
+#baner 
+{
+	background:url(../images/baner.jpg);
+	
+	background-position:center;
+	background-repeat:on-repeat;
+	background-size:cover;
+}
+.overly 
+{
+	width:100%;
+	height:100%;
+	background:rgb(0,0,0,0.4);
+}
+.baner-item 
+{
+	padding-top:250px;
+	padding-bottom:250px;
+	color:white;
+}
+.baner-item h3 
+{
+	font-family: 'Raleway', sans-serif;
+     font-weight:500;
+	font-size:36px;
+}
+
+.baner-item h2 
+{
+	font-family: 'Raleway', sans-serif;
+     font-weight:900;
+	font-size:52px;
+}
+
+.baner-item p 
+{
+    font-family: 'Montserrat', sans-serif;
+     font-weight:500;
+	font-size:16px;
+	line-height:24px;
+	margin-bottom:50px;
+}
+.baner-item a 
+{
+    font-family: 'Montserrat', sans-serif;
+     font-weight:500;
+	font-size:16px;
+	background:#998675;
+	padding:20px 40px;
+	color:white;
+	text-transform:uppercase;
+}
+.baner-item a:hover 
+{
+	text-decoration:none;
+}
+
+#slick-slide-control00
+{
+	width:0px;
+	height:0px;
+	font-size:0;
+}
+ 
+#slick-slide-control01
+{
+	width:0px;
+	height:0px;
+	font-size:0;
+}
+ 
+#slick-slide-control02
+{
+	width:0px;
+	height:0px;
+	font-size:0;
+}
+ 
+
+
+/*-------baner and----------*/
+/*-------sarvis start----------*/
+
+
+#service
+{
+	padding-top:80px;
+	padding-bottom:80px;
+}
+.service-item:after 
+{
+	content:'';
+	position:absolute;
+	width:40px;
+	height:3px;
+	background:red;
+	bottom:0px;
+	left:50%;
+	 transform: translateX(-50%);
+	 transition:all ease .6s;
+	 opacity:0;
+}
+.service-item:hover:after 
+{
+	width:90px;
+	height:3px;
+	opacity:2;
+}  
+.service-item i  
+{
+	font-size:60px;
+	margin-top:10px;
+}
+.service-item:hover i  
+{
+	color:#998675;
+}
+.service-item h3 
+{
+	font-size:22px;
+	color:#555555;
+	font-family: 'Raleway', sans-serif;
+	font-weight:800;
+	padding-top:20px;
+	padding-bottom:20px;
+	
+	
+}
+.service-item:hover h3  
+{
+	color:#998675;
+}
+.service-item p 
+{
+	font-size:14px;
+	line-height:24px;
+	color:#8c8c8c;
+	   font-family: 'Montserrat', sans-serif;
+	font-size:500;
+	margin-bottom:30px;
+	
+	
+}
+
+
+/*------sarvis and----------*/
+
+
+
+/*------idea start----------*/
+#idea 
+{
+	background:#fbfaf8;
+}
+
+.idea-part 
+{
+	padding-top:70px;
+	padding-bottom:70px;
+	
+}
+
+.idea-part h3 
+{
+	font-size:30px;
+	font-weight:700;
+	color:#555555;
+		font-family: 'Raleway', sans-serif;
+}
+
+.idea-part p
+{
+	font-size:16px;
+	font-weight:500;
+	color:#8c8c8c;
+	 font-family: 'Montserrat', sans-serif;
+	line-height:28px;
+}
+
+
+
+
+
+
+/*------idea and----------*/
+
+
+/*------bar start----------*/
+
+#bar 
+{
+	
+	background:linear-gradient(to right, #211b19, #4e3427);
+
+}
+.bar-text 
+{
+	float:left;
+	padding-top:45px;
+	padding-bottom:25px;
+}
+.bar-text h2 
+{
+	font-size:28px;
+	color:#ffffff;
+	 font-family: 'Montserrat', sans-serif;
+	font-weight:400;
+	
+}
+.bar-text p
+{
+	font-size:18px;
+	color:#615855;
+	font-family: 'Raleway', sans-serif;
+	font-weight:300;
+	
+}
+.bar-text span
+{
+	color:#b29e88;
+}
+.bar-button a
+{
+	float:right;
+	padding:10px 20px;
+	color:white;
+	text-transform:uppercase;
+	background:#b29e88;
+	font-weight:700;
+	font-size:14px;
+	line-height:24px;
+	font-family: 'Raleway', sans-serif;
+	margin-top:50px;
+	text-decoration:none;
+}
+
+
+
+/*------our start----------*/
+
+#our 
+{
+	padding-top:70px;
+}
+#our .text-pirt h3 
+{
+	color:#555555;
+	font-size:30px;
+	font-family:'Raleway', sans-serif;
+	font-weight:900;
+}
+#our .text-pirt p 
+
+{
+	font-size:16px;
+	line-height:28px;
+	color:#8c8c8c;
+	 font-family: 'Montserrat', sans-serif;
+	font-weight:500;
+}
+#our .button-pirt
+{
+	padding-top:40px;
+	padding-bottom:40px;
+}
+#our .button-pirt button
+{
+	padding:10px 20px;
+	margin-left:10px;
+	border:.4px solid #b2b2b2;
+	text-decoration:none;
+	color:#b2b2b2;
+	border-radius:3px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:500;
+	transition:all ease 1s;
+}
+#our .button-pirt button:hover 
+{
+	background:#977d66;
+	color:#ffffff;
+}
+/*------our and----------*/
+
+
+/*------project start----------*/
+
+
+.project-text 
+{
+	padding-top:30px;
+		
+}
+.project-text h4 
+{
+	font-size:20px;
+	color:#c7b299;
+	font-family:'Raleway', sans-serif;
+	
+		font-weight:500;
+		margin-left:20px;
+}
+
+
+.project-text p
+{
+	font-size:14px;
+	line-height:20px;
+	color:#d1d1d1;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
+	margin-left:20px;
+	
+}
+.project-img 
+{
+	position:relative;
+}
+.project-img i 
+{
+	position:absolute;
+	top:50%;
+	left:35%;
+	font-size:30px;
+	color:white;
+	opacity:0;
+	
+	
+}
+.project-img .nn
+{
+	position:absolute;
+	top:50%;
+	left:50%;
+	font-size:30px;
+	color:white;
+	opacity:0;
+	
+	
+}
+.project-img:hover i 
+{
+	opacity:2;
+	z-index:1;
+}
+.project-img .overly
+{
+	
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:rgb(92, 77, 74, 0.9);
+	left:0;
+	top:0;
+	opacity:0;
+	transition:all ease 1s;
+}
+
+.project-img:after 
+
+{
+		content:'';
+		position:absolute;
+		width:30px;
+		height:30px;
+		background:white;
+		bottom:-15px;
+		left:15%;
+		transform:rotate(45deg);
+	    transition:all ease 1s;
+		
+
+}
+.project-img:hover .overly
+{
+	
+opacity:2;
+}
+.project-img:hover:after  
+{
+	background:rgb(92, 77, 74, 0.9);
+	
+}
+.project-text:hover 
+{
+	background:#362f2d;
+	transition:all ease 1s;
+}
+.project-text:after 
+{
+	content:'';
+	width:30px;
+	height:30px;
+	background:#362f2d;
+	bottom:30%;
+	left:18%;
+	position:absolute;
+	transform:rotate(45deg);
+	opacity:0;
+	color:white;
+	transition:all ease 1s;
+}
+.project-text:hover:after
+{
+	opacity:2;
+}
+#last button 
+{
+	padding:10px 20px;
+	border:.4px solid #b2b2b2;
+	text-decoration:none;
+	background:#977d66;
+	color:#ffffff;
+	border-radius:3px;
+	font-family:'Raleway', sans-serif;
+	font-weight:500;
+	transition:all ease 1s;
+	text-transform:uppercase;
+	margin-top:40px;
+	margin-bottom:70px;
+	line-height:23px;
+	font-size:14px;
+}
+
+/*------project and----------*/
+
+
+/* video-pirt-stert */
+
+#video 
+{
+	background:url(../images/video.jpg);
+	background-position:center;
+	background-size:cover;
+	padding-top:210px;
+	padding-bottom:260px;
+}
+#video i 
+{
+	width:100px;
+	height:100px;
+	font-size:60px;
+	line-height:100px;
+	color:white;
+	background:rgb(0,0,0,0.3);
+	border-radius:50%;
+}
+#video h3 
+{
+	font-size:30px;
+	font-family:'Raleway', sans-serif;
+	font-weight:400;
+	color:white;
+	padding-top:45px;
+}
+#video p 
+{
+	font-size:16px;
+	line-height:28px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:500;
+	color:white;
+	padding-top:10px;
+	margin-left:20px;
+}
+/* video-pirt-and */
+
+/* exc start */
+
+.exc
+{
+	padding-top:75px;
+
+}
+.exc-text
+{
+	padding-top:100px;
+}
+.exc-text h3 
+{
+font-family:'Raleway', sans-serif;
+font-weight:800;
+color:#555555;
+font-size:30px;
+
+}
+.exc-text h4 
+{
+font-family: 'Montserrat', sans-serif;
+font-weight:500;
+color:#555555;
+font-size:16px;
+padding-top:20px;
+line-height:28px;
+padding-bottom:40px;
+}
+.exc-text h4 
+{
+color:#8c8c8c;
+font-size:16px;
+line-height:32px;
+font-family: 'Montserrat', sans-serif;
+font-weight:500;
+}
+.exc-text i 
+{
+	color:#c7b299;
+	font-size:20px;
+	margin-right:30px;
+}
+
+
+
+/* exc and */
+
+/* counter start */
+
+#counter 
+{
+	padding-top:70px;
+	padding-bottom:60px;
+	background:linear-gradient(to right,#221c1a,#4c3326);
+	
+}
+#counter i 
+{
+	font-size:55px;
+	color:#887766;
+	
+}
+
+#counter h2 
+{
+	font-size:48px;
+	color:white;
+	line-height:36px;
+	font-family: 'Montserrat', sans-serif;
+font-weight:500;
+padding-top:20px;
+}
+
+#counter p
+{
+	font-size:14px;
+	padding-top:5px;
+	line-height:20px;
+	font-family: 'Montserrat', sans-serif;
+font-weight:400;
+	color:#887766;
+	text-transform:uppercase;
+	
+}
+.counter-item:after 
+{
+	content:'';
+	position:absolute;
+	width:40px;
+	height:3px;
+	background:#887766;
+	bottom:-5px;
+	left:50%;
+	transform:translateX(-50%);
+}
+
+
+/* counter and */
+
+
+/* recent-stert */
+#recent 
+{
+	padding-bottom:140px;
+}
+
+.recent-text h3
+{
+	
+   font-size:30px;
+	padding-top:75px;
+      padding-bottom:20px;
+	font-family: 'Montserrat', sans-serif;
+     font-weight:400;
+	color:#555555;
+}
+
+.recent-text p
+{
+	 font-size:16px;
+	  line-height:28px;
+	font-family:'Raleway', sans-serif;
+     font-weight:700;
+	color:#555555;
+}
+.recent-img img 
+{
+	padding-top:25px;
+	
+	
+} 
+.recent-srure h3 
+{
+	font-family:'Raleway', sans-serif;
+     font-weight:400;
+	 color:#;
+	 font-size:20px;
+	 padding-left:25px;
+	 padding-top:20px;
+	 padding-bottom:20px;
+}
+.recent-srure h4
+ {
+	 font-family: 'Montserrat', sans-serif;
+	  font-weight:400;
+	 color:#8c8c8c;
+	 font-size:14px;
+	 padding-left:25px;
+	 line-height:22px;
+ }
+ .recent-srure p
+ {
+	 font-family: 'Montserrat', sans-serif;
+	  font-weight:500;
+	 color:#c7b299;
+	 font-size:14px;
+	 padding-left:25px;
+	 line-height:20px;
+	 margin-top:20px;
+	 padding-bottom:20px;
+	
+ }
+.recent-srure i 
+{
+	padding-left:25px;
+	font-size:16px;
+	margin-top:5px;
+	
+	padding-bottom:0px;
+	
+}
+
+
+.recent-pirt:hover .recent-srure 
+{
+	background:#362f2d;
+	transition:all ease 2s;
+} 
+.recent-pirt:hover h3
+{
+color:#c7b299;
+}
+.overly2
+{
+	position:absolute;
+	top:10%;
+	left:10%;
+	background:#363636;
+	width:50px;
+	height:65px;
+	
+	cursor:pointer;
+	text-align:center;
+	border-radius:5px;
+}
+
+ .overly2 h2
+{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:500;
+	padding:10px 10px;
+	background:#363636;
+    font-size:24px;
+	line-height:20px;
+	color:white;
+	
+	border-radius:5px;
+} 
+.overly2 h5
+{
+	font-family:'Raleway', sans-serif;
+     font-weight:400;
+	padding:5px 10px;
+	background:#252525;
+    font-size:12px;
+	line-height:20px;
+	color:white;
+
+	border-radius:5px;
+}
+.recent-pirt:hover h5
+{
+	background:#a48d72;
+}
+.recent-pirt:hover h2
+{
+	background:#c7b299;
+}
+
+
+.recent-pirt:hover .overly2
+{
+	background:#c7b299;
+}
+
+
+
+
+
+
+
+
+
+/* recent-and */
